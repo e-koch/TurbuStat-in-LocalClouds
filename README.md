@@ -1,5 +1,7 @@
 # TurbuStat-in-LocalClouds
 
+Project advisors: Eric Koch (eric.koch AT cfa.harvard.edu) and Annie Hughes (Annie.Hughes AT irap.omp.eu)
+
 ## Project overview ##
 
 We will explore a few different data sets that are all publicly available:
