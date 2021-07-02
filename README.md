@@ -51,3 +51,8 @@ Some of the statistics require additional packages:
 * astrodendro `pip install astrodendro`
 * emcee `pip install emcee`
 
+## Getting the data ##
+
+The different data sets can be downloaded from their public repository (see links above). However, we have gathered them in one place, and applied some preprocessing to some data (not required, but convenient to avoid re-running).
+
+*Contact Eric Koch to get access to the data repository!*
