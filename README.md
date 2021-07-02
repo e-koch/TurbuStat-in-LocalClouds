@@ -26,3 +26,26 @@ The two notebooks in this repo show:
 
 2. `turbustat_overview_localclouds.ipynb` provides some examples of running different turbulence statistics, and how some of the comparisons suggested above can be calculated. These are meant to be a starting point for exploring aspects of the data during the project. They need not be the only types of comparisons you could explore! If you have ideas for other things to explore, please discuss with the supervisors!
 
+## Which python packages will you need? ##
+
+* turbustat: `pip install turbustat`
+
+This should install the required packages. To test, open python and run `import turbustat` to check. In case any packages are missing, here is a list of the required packages (see the [turbustat install page](https://turbustat.readthedocs.io/en/latest/install.html) for more details):
+
+* astropy>=2.0
+* numpy>=1.7
+* matplotlib>=1.2
+* scipy>=0.12
+* sklearn>=0.13.0
+* statsmodels>=0.4.0
+* scikit-image>=0.12
+
+These packages can be installed using `pip` or `conda` (if you are using an anaconda environment).
+
+Some of the statistics require additional packages:
+
+* spectral-cube `pip install spectral_cube`
+* radio-beam `pip install radio_beam` (will be installed with spectral-cube)
+* astrodendro `pip install astrodendro`
+* emcee `pip install emcee`
+
