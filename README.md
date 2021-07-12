@@ -28,6 +28,22 @@ The two notebooks in this repo show:
 
 2. `turbustat_overview_localclouds.ipynb` provides some examples of running different turbulence statistics, and how some of the comparisons suggested above can be calculated. These are meant to be a starting point for exploring aspects of the data during the project. They need not be the only types of comparisons you could explore! If you have ideas for other things to explore, please discuss with the supervisors!
 
+## Helpful links ##
+
+[TurbuStat documentations](https://turbustat.readthedocs.io/en/latest/index.html)
+
+[TurbuStat tutorials](https://turbustat.readthedocs.io/en/latest/tutorials/index.html)
+
+NOTE: Each turbulence statistic tutorial includes references to relevant literature. These may not be complete but will provide at least a good starting point to learn more about each technique.
+
+## Some literature on using TurbuStat to compare data sets ##
+
+[Definition of the distance metric - Koch+2017](https://ui.adsabs.harvard.edu/abs/2017MNRAS.471.1506K/abstract)
+
+[Visualizing how feedback affects turbulence statistics - Boyden+2016](https://ui.adsabs.harvard.edu/abs/2016ApJ...833..233B/abstract)
+
+[Comparisons between different spectral line tracers - Boyden+2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...860..157B/abstract)
+
 ## Which python packages will you need? ##
 
 * turbustat: `pip install turbustat`
@@ -47,6 +63,7 @@ These packages can be installed using `pip` or `conda` (if you are using an anac
 Some of the statistics require additional packages:
 
 * spectral-cube `pip install spectral_cube`
+* reproject `pip install reproject`
 * radio-beam `pip install radio_beam` (will be installed with spectral-cube)
 * astrodendro `pip install astrodendro`
 * emcee `pip install emcee`
